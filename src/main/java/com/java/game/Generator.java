@@ -31,21 +31,15 @@ public class Generator {
 
         Collections.sort(lottoNumber);
 
-        System.out.println("6 numbers are:");
+        System.out.println("Six numbers are:");
         for (int i: lottoNumber) {
             System.out.print(i + " ");
         }
     }
 
     public void generateSuperNumber() {
-        for (int i: lottoNumber) {
-            numberSet.remove(i);
-        }
 
-        int newHighestIndex = numberSet.size() - 1;
-        int lowestIndex = 0;
-        int superNumber = r.nextInt(newHighestIndex - lowestIndex) + lowestIndex;
-
+        int superNumber = r.nextInt(9 - 0);
 
         System.out.println();
         System.out.println();

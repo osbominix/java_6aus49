@@ -9,10 +9,10 @@ You can just run it as a java project inside an IDE or use the pom.xml to genera
 
 # The output looks like:
 
-  6 numbers are:
-  4 11 31 42 45 48
+Six numbers are:
+4 7 30 34 35 36
 
-  The super Number is:
-  14
+The super Number is:
+2
 
 
